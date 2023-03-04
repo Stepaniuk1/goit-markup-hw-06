@@ -532,7 +532,8 @@
           <label for="user-phone">Phone</label>
 
           <div class="input-svg">
-            <input type="text" type="tel" name="tel" id="user-phone">
+            <input type="text" type="tel" name="tel" id="user-phone" pattern="^\+[0-9]{12}"
+              title="Номер повинен складатися із 12 цифр">
 
             <svg class="icon-form" height="24px" width="18px">
               <use href="./images/icons.svg#icon-phone"></use>
