@@ -506,6 +506,10 @@ img {
 .form-field label {
   color: var(--svg-item-color);
   margin-bottom: 4px;
+
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
 }
 
 .form-field input {
@@ -526,6 +530,10 @@ img {
 
 .form-field textarea::placeholder {
   color: var(--color-placeholder);
+
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 
 .form-field input:focus {
@@ -589,6 +597,8 @@ textarea:focus {
   border: 1px;
   border-radius: 4px;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 
   letter-spacing: 0.04em;
   cursor: pointer;
